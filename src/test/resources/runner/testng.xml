@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GeeksForGeeksApp" parallel="false" >
+    <listeners>
+        <listener class-name="ExtentReport.ExtentListeners"/>
+    </listeners>
+    <test name="App Automation" >
+
+        <classes>
+            <class name="TestCases.LoginTest"/>
+        </classes>
+
+    </test>
+</suite>
